@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Primeiro HTML</title>
+    
+    <script type="text/javascript">
+    	var a = 123;
+    	
+    	var soma = function (a,b) {
+		    var c = a+b;
+    		return c;
+		};
+		
+	
+		var	A = function () {
+				alert('Sou uma classe?');
+		}
+
+		A.prototype.ola = function (){
+			alert('OLA');
+		};
+
+		var arr = ['a','b','c','d'];
+		alert(arr[0]);
+		alert(arr.length);
+
+
+		
+
+    </script>
+
+    </head>
+
+    <body>
+		<form id="formLegal" action='untitled.html' method="GET">
+			<fieldset>
+				<legend>Login</legend>
+				<label for='usuario'> Usuário</label>: <input type="text" name="usuario" >
+				<label for="pass">Senha</label>: <input type="password" name="pass"><br><br>	
+			</fieldset>
+			
+			<label for='radioButton'>Sexo</label><br>
+			<input type="radio" name="radioButton" value='M'>Masculino <br>
+			<input type="radio" name="radioButton2" value='F'>Feminino
+			<br><br>
+			<select name='carro'>
+				<optgroup>
+					<option value="FERRARI">Mercedes-Benz</option>
+					<option value="FERRARI">Mercedes-Benz</option>
+					<option value="FERRARI">Mercedes-Benz</option>
+					<option value="FERRARI">Mercedes-Benz</option>
+				</optgroup>
+				<optgroup >
+					<option value="FERRARI">Mercedes-Benz</option>
+					<option value="FERRARI">Mercedes-Benz</option>
+					<option value="FERRARI">Mercedes-Benz</option>
+					<option value="FERRARI">Mercedes-Benz</option>
+				</optgroup>
+			</select>
+			<br><br>
+			<input type="submit" value='SUBMETE AI!'>
+		</form>
+	</body>
+</html>
